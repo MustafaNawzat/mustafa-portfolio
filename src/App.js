@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+// components
+import Navbar from './components/Navbar'
+import About from './components/About'
+import Cv from './components/Cv'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+ 
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const message = <div>Hi there, Glad you're here to check out my code, but unfortunately this website is under construction!</div>
+  return(
+    ReactDOM.render((
+      <Router>
+        <div>
+          <Navbar />
+          <Route exact path="/" component={About} />
+          <Route path="/cv" component={Cv} />
+          <Route path="/Projects" component={Projects} />
+          <Route path="/Contact" component={Contact} />
+          {message}
+        </div>
+      </Router>),
+      document.getElementById('root')
+    )
+  )
 }
 
 export default App;
