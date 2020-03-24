@@ -15,15 +15,35 @@
 .section-p{
   font-weight: 300;
 }
-.about-me-caption strong{
+.about-me-caption .strongy{
   color: #ee274f;
+  font-weight: 500;
 }
 .find-me{
   color: #ccc;
 }
 .list-social-links li{
-    display: inline-block;
-    margin: 10px 50px 10px 0;
+  display: inline-block;
+  margin: 10px 50px 10px 0;
+
+}
+/* .list-social-links li a i{
+  transition: all .2s ease-in-out;
+} */
+.list-social-links i.github{
+  color: #212529;
+}
+.list-social-links i.linkedin{
+  color: #0073b1;
+}
+.list-social-links i.instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.list-social-links i.messenger{
+  color: #0084ff;
 }
 .btn-main{
   background-color: #ee274f;
@@ -32,6 +52,12 @@
   border-radius: 56px;
   font-weight: 400;
 }
+@media (max-width: 400px){
+  .btn-main{
+    margin-bottom:10px;
+  }
+}
+
 .btn-main:hover{
   color: #ee274f;
   background-color: #fff;
@@ -41,8 +67,11 @@
 }
 @media (max-width: 992px){
   .devloper-img{
-    max-width: 80%;
-    margin: 20px auto;
+    max-width: 70%;
+    margin: 40px auto;
     display: block;
+  }
+  .btns-container{
+    margin-bottom: 40px;
   }
 }

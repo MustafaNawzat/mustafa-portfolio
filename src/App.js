@@ -10,8 +10,6 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 // Bootstrap
  import Container from 'react-bootstrap/Container'
- import Row from 'react-bootstrap/Row'
- import Col from 'react-bootstrap/Col'
  
 
 function App() {

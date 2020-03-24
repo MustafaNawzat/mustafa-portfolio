@@ -1,8 +1,9 @@
 .section-title{
-    background:  linear-gradient(to right, #ee274f, #62c0e3 70%);
+    background:  linear-gradient(to right, #ee274f, #62c0e3 90%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 700;
   }
   
   .hover {
