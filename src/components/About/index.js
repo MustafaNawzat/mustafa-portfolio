@@ -31,7 +31,7 @@ export default class About extends React.Component {
 
     return (
       <>
-        <Container className="min-vh-100 d-flex align-items-center">
+        <Container className="d-flex flex-grow-1 align-items-center">
           <Row className="flex-column-reverse flex-lg-row">
             <Col lg={6} md={12}>
             <FadeInLeftDiv>
@@ -39,15 +39,15 @@ export default class About extends React.Component {
                 <h1 className="mb-0">Hey, I'm Mustafa Nawzat</h1>
                 <p className="mt-0"><strong>Junior Front End Developer</strong></p>
               </div>
-              <p className="lead about-me-caption">On A journy of everyday <Typed className="strongy"
-                    strings={['Learning', 'Practising', 'Self developing ']}
-                    typeSpeed={40} backSpeed={50} loop/><br></br>to be a Front-End Developer and yes, my name is Mustafa but everybody calls me Tofy :)</p>
+              <p className="lead about-me-caption">On A journey of everyday <Typed className="strongy"
+                    strings={['Learning', 'Practicing', 'Self-developing ']}
+                    typeSpeed={40} backSpeed={50} loop/><br></br>to be a Front-End Web Developer and yes, my name is Mustafa but everybody calls me Tofy :)</p>
               <span className="find-me">Find Me On</span>
               <ul className="list-unstyled list-social-links">
-                  <li className="d-inline-block m-3"><a href="/#"><i className="fab fa-2x fa-github github"></i></a></li>
-                  <li className="d-inline-block m-3"><a href="/#"><i className="fab fa-2x fa-linkedin linkedin"></i></a></li>
-                  <li className="d-inline-block m-3"><a href="/#"><i className="fab fa-2x fa-instagram instagram"></i></a></li>
-                  <li className="d-inline-block m-3"><a href="/#"><i className="fab fa-2x fa-facebook-messenger messenger"></i></a></li>
+                  <li className="d-inline-block m-3"><a href="https://github.com/MustafaNawzat/" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-github github"></i></a></li>
+                  <li className="d-inline-block m-3"><a href="https://www.linkedin.com/in/mustafa-nawzat-88a689132/" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-linkedin linkedin"></i></a></li>
+                  <li className="d-inline-block m-3"><a href="https://twitter.com/MustafaNawzat" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-twitter twitter"></i></a></li>
+                  <li className="d-inline-block m-3"><a href="http://instagram.com/mustafa.n.r" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-instagram instagram"></i></a></li>
               </ul>
               <div className="btns-container mt-3">
                 <a className="btn btn-main py-2 px-5 mr-3 btn-lg" href="mailto:mustafanawzatt@gmail.com?&subject=Big%20News">HIRE ME</a>
