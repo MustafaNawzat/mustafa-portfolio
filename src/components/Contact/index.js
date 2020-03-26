@@ -17,11 +17,13 @@ export default function Contact() {
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm('default_service', 'template_gTdonydB', e.target, 'user_0GwZUMzrr2oQ1HgYaHHC8')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-         });
+            .then((result) => {
+                alert("Thank you, Your messeage have been sent");
+                document.forms["myForm"].reset();
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     }
 
     const FadeInLeftAnimation = keyframes`${FadeInLeft}`;
@@ -46,10 +48,10 @@ export default function Contact() {
                 <Row className="flex-column-reverse flex-lg-row">
                     <Col md={6}>
                         <FadeInLeftDiv>
-                            <form id="contact-form" onSubmit={sendEmail}>
-                                <input placeholder="Your name" type="text" name="user_name" className="form-control costuom-form mb-3 shadow-none"></input>
-                                <input placeholder="Your email" type="email" name="user_email" className="form-control costuom-form mb-3 shadow-none"></input>
-                                <textarea style={{ resize: "none" }} placeholder="Your message" name="message" rows="4" className="form-control md-textarea costuom-form mb-3 shadow-none"></textarea>
+                            <form name="myForm" id="contact-form" onSubmit={sendEmail}>
+                                <input required placeholder="Your name" type="text" name="user_name" className="form-control costuom-form mb-3 shadow-none"></input>
+                                <input required placeholder="Your email" type="email" name="user_email" className="form-control costuom-form mb-3 shadow-none"></input>
+                                <textarea required style={{ resize: "none" }} placeholder="Your message" name="message" rows="4" className="form-control md-textarea costuom-form mb-3 shadow-none"></textarea>
                                 <button type="submit" value="Send" className="btn btn-outline-primary btn-form my-3 py-2 px-5 btn-block">Send</button>
                             </form>
                         </FadeInLeftDiv>
