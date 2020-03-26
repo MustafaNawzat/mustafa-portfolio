@@ -9,16 +9,15 @@ import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 // Bootstrap
- import Container from 'react-bootstrap/Container'
- 
+import Container from 'react-bootstrap/Container'
 
 function App() {
-  return(
+  return (
     ReactDOM.render((
       <Router>
         <>
           <Container>
-            <Navigation/>
+            <Navigation />
           </Container>
           <Route exact path="/" component={About} />
           <Route path="/Projects" component={Projects} />
@@ -30,5 +29,4 @@ function App() {
     )
   )
 }
-
 export default App;

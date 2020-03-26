@@ -1,33 +1,27 @@
 import React from 'react'
 import './style.css'
-
 import formImg from './Img/form-img.png'
 // Bootstrap
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
 // Animate
 import styled, { keyframes } from 'styled-components';
 import FadeInLeft from 'react-animations/lib/fade-in-left'
 import FadeInRight from 'react-animations/lib/fade-in-right'
-
 // For forwarding the email to my Gmail account
 import emailjs from 'emailjs-com';
 
-
 export default function Contact() {
-
 
     function sendEmail(e) {
         e.preventDefault();
-
         emailjs.sendForm('default_service', 'template_gTdonydB', e.target, 'user_0GwZUMzrr2oQ1HgYaHHC8')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
-        });
+         });
     }
 
     const FadeInLeftAnimation = keyframes`${FadeInLeft}`;
@@ -55,7 +49,7 @@ export default function Contact() {
                             <form id="contact-form" onSubmit={sendEmail}>
                                 <input placeholder="Your name" type="text" name="user_name" className="form-control costuom-form mb-3 shadow-none"></input>
                                 <input placeholder="Your email" type="email" name="user_email" className="form-control costuom-form mb-3 shadow-none"></input>
-                                <textarea style={{resize: "none"}} placeholder="Your message" name="message" rows="4" className="form-control md-textarea costuom-form mb-3 shadow-none"></textarea>
+                                <textarea style={{ resize: "none" }} placeholder="Your message" name="message" rows="4" className="form-control md-textarea costuom-form mb-3 shadow-none"></textarea>
                                 <button type="submit" value="Send" className="btn btn-outline-primary btn-form my-3 py-2 px-5 btn-block">Send</button>
                             </form>
                         </FadeInLeftDiv>
