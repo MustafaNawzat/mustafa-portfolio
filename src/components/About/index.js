@@ -47,9 +47,9 @@ export default class About extends React.Component {
                   <li className="d-inline-block m-3"><a href="https://twitter.com/MustafaNawzat" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-twitter twitter"></i></a></li>
                   <li className="d-inline-block m-3"><a href="http://instagram.com/mustafa.n.r" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-instagram instagram"></i></a></li>
                 </ul>
-                <div className="btns-container mt-3">
+                <div className="btns-container mt-3 pb-2">
                   <a className="btn btn-main py-2 px-5 mr-3 btn-lg" href="mailto:mustafanawzatt@gmail.com?&subject=Big%20News">HIRE ME</a>
-                  <a className="btn btn-outline-primary ml-xl-2 py-2 px-5  btn-lg" href="/Projects">Projects</a>
+                  <a className="btn btn-outline-primary ml-xl-2 py-2 px-5 btn-lg" href="/Projects">Projects</a>
                 </div>
               </FadeInLeftDiv>
             </Col>
