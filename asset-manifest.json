@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3def0070.chunk.css",
+    "main.js": "/static/js/main.dba430aa.chunk.js",
+    "main.js.map": "/static/js/main.dba430aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8c2719cc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8c2719cc.js.map",
+    "static/css/2.18bc7be3.chunk.css": "/static/css/2.18bc7be3.chunk.css",
+    "static/js/2.de53fee9.chunk.js": "/static/js/2.de53fee9.chunk.js",
+    "static/js/2.de53fee9.chunk.js.map": "/static/js/2.de53fee9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.34acc1309a91ca6f90617d38c4424aea.js": "/precache-manifest.34acc1309a91ca6f90617d38c4424aea.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.18bc7be3.chunk.css.map": "/static/css/2.18bc7be3.chunk.css.map",
+    "static/css/main.3def0070.chunk.css.map": "/static/css/main.3def0070.chunk.css.map",
+    "static/js/2.de53fee9.chunk.js.LICENSE.txt": "/static/js/2.de53fee9.chunk.js.LICENSE.txt",
+    "static/media/Mustafa_N_MERIE.pdf": "/static/media/Mustafa_N_MERIE.e7594caf.pdf",
+    "static/media/about.jpg": "/static/media/about.ca844a15.jpg",
+    "static/media/project1.png": "/static/media/project1.e18ac856.png",
+    "static/media/project2.png": "/static/media/project2.5db4d04e.png",
+    "static/media/project3.png": "/static/media/project3.5d087832.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c2719cc.js",
+    "static/css/2.18bc7be3.chunk.css",
+    "static/js/2.de53fee9.chunk.js",
+    "static/css/main.3def0070.chunk.css",
+    "static/js/main.dba430aa.chunk.js"
+  ]
+}
