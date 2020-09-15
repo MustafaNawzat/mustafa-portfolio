@@ -45,13 +45,13 @@ export default function Contact() {
                     <p className="lead w-75 m-auto pb-4 section-p">I'm available for freelance, can't wait for the next
                         exciting project and it could be yours! So let's work on somthing to be proud of together!</p>
                 </div>
-                <Row className="flex-column-reverse flex-lg-row">
+                <Row className="flex-column-reverse flex-lg-row my-5">
                     <Col md={6}>
                         <FadeInLeftDiv>
                             <form name="myForm" id="contact-form" onSubmit={sendEmail}>
-                                <input required placeholder="Your name" type="text" name="user_name" className="form-control costuom-form mb-3 shadow-none"></input>
-                                <input required placeholder="Your email" type="email" name="user_email" className="form-control costuom-form mb-3 shadow-none"></input>
-                                <textarea required style={{ resize: "none" }} placeholder="Your message" name="message" rows="4" className="form-control md-textarea costuom-form mb-3 shadow-none"></textarea>
+                                <input required placeholder="Your Name" type="text" name="user_name" className="form-control costuom-form mb-3 shadow-none"></input>
+                                <input required placeholder="Your Email" type="email" name="user_email" className="form-control costuom-form mb-3 shadow-none"></input>
+                                <textarea required style={{ resize: "none" }} placeholder="Your Message" name="message" rows="4" className="form-control md-textarea costuom-form mb-3 shadow-none"></textarea>
                                 <button type="submit" value="Send" className="btn btn-outline-primary btn-form my-3 py-2 px-5 btn-block">Send</button>
                             </form>
                         </FadeInLeftDiv>

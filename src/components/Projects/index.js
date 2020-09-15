@@ -39,7 +39,7 @@ export default class Projects extends Component {
                                     <div className="hover-5-content">
                                         <h4 className="hover-5-title text-uppercase text-center text-white text-bold">Mustafaio</h4>
                                         <p className="lead porject-cption text-center text-white px-2">one-page portfolio website template. used the white space and the scroll effects to deliver an immersive experience.</p>
-                                        <a className="project-link text-center" href="https://github.com/MustafaNawzat/mustafio" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
+                                        <a className="project-link text-center" href="https://mustafio.netlify.app/" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
                                     </div>
                                 </div>
                             </FadeInUpDiv1s>

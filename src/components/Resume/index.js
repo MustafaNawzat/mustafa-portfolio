@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from './Mustafa_N_MERIE.pdf'
+import pdf from './Mustafa_Merie_Resume.pdf'
 
 export default class Resume extends React.Component {
   
@@ -22,7 +22,7 @@ export default class Resume extends React.Component {
 
     return (
         <>
-          <iframe src={pdf} title="Mustafa_N_MERIE.pdf" style={divStyle}></iframe>
+          <iframe src={pdf} title="Mustafa_Merie_Resume.pdf" style={divStyle}></iframe>
         </>
       );
   }

@@ -56,6 +56,12 @@
   border-radius: 56px;
   font-weight: 400;
 }
+
+.devloper-img{
+  max-width: 500px;
+  max-height: 500px;
+}
+
 @media (max-width: 400px){
   .btn-main{
     margin-bottom:10px;
