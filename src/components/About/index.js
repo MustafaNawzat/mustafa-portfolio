@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.css"
-import AboutPic from "./Img/about.svg"
+import AboutPic from "./Img/about.gif"
 // Bootstrap
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -29,7 +29,7 @@ export default class About extends React.Component {
 
     return (
       <>
-        <Container className="d-flex flex-grow-1 align-items-center">
+        <Container className="aboutMeContainer">
           <Row className="flex-column-reverse flex-lg-row">
             <Col lg={6} md={12}>
               <FadeInLeftDiv>
@@ -47,7 +47,7 @@ export default class About extends React.Component {
                   </div>
                   <div id="readmore" class="panel-collapse collapse">
                     <div class="panel-body">
-                      <p>
+                      <p className="lead about-me-caption">
                         I have shifted my career goals from teaching English to become a developer. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by <a href="https://www.re-coded.com/" target="_blank" rel='noreferrer noopener'>Re:Coded</a> and <a href="https://flatironschool.com/" target="_blank" rel='noreferrer noopener'>Flatiron school</a>. I honed my skills in front-end web development as well as in soft skills during the bootcamp. Now, I'm focusing on practicing, improving and going deeper into the techniques that he learned.
                       </p>
                     </div>

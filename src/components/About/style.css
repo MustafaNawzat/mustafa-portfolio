@@ -1,3 +1,6 @@
+.aboutMeContainer{
+  margin-top: 7%;
+}
 .hey-content h1{
   background: linear-gradient(to right, #ee274f, #62c0e3 70%);
   -webkit-background-clip: text;
