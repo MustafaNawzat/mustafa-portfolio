@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.css"
-import AboutPic from "./Img/about.gif"
+import AboutPic from "./Img/about.svg"
 // Bootstrap
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
