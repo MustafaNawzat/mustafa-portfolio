@@ -3,6 +3,7 @@ import './style.css'
 import Pro1 from './img/project1.png'
 import Pro2 from './img/project2.png'
 import Pro3 from './img/project3.png'
+import Pro4 from './img/project4.png'
 // Bootstrap
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -22,6 +23,7 @@ export default class Projects extends Component {
         const FadeInUpDiv2s = styled.div`
           animation:  2s ${FadeInUpAnimation};
         `;
+
         return (
             <>
                 <Container>
@@ -68,6 +70,20 @@ export default class Projects extends Component {
                                         <h4 className="hover-5-title text-uppercase text-center text-white">My Portfolio</h4>
                                         <p className="lead porject-cption text-center text-white px-2">Personal portfolio website template. The application is based on React and bootstrap 4+</p>
                                         <a className="project-link text-center" href="https://github.com/MustafaNawzat/mustafa-portfolio" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </FadeInUpDiv2s>
+                        </Col>
+                        {/* Project 4 */}
+                        <Col lg={6} className="mb-3">
+                            <FadeInUpDiv2s>
+                                <div className="hover hover-5 text-white rounded">
+                                    <img className="img-fluid" src={Pro4} alt="project"></img>
+                                    <div className="hover-overlay"></div>
+                                    <div className="hover-5-content">
+                                        <h4 className="hover-5-title text-uppercase text-center text-white">ToDo App with ReactJS</h4>
+                                        <p className="lead porject-cption text-center text-white px-2">This is an open source ToDo app using ReactJS with Bootstarp for styling and Context Api for state management. Beginners friendly.</p>
+                                        <a className="project-link text-center" href="https://mustafanawzat.github.io/ToDo-App-with-ReactJS-and-Context-Api/" target="_blank" rel='noreferrer noopener'><i className="fas fa-external-link-alt fa-2x text-white"></i></a>
                                     </div>
                                 </div>
                             </FadeInUpDiv2s>
