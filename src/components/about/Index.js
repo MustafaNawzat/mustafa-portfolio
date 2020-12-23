@@ -48,7 +48,7 @@ export default class About extends React.Component {
                   <div id="readmore" class="panel-collapse collapse">
                     <div class="panel-body">
                       <p className="lead about-me-caption">
-                        I have shifted my career goals from teaching English to become a developer. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by <a href="https://www.re-coded.com/" target="_blank" rel='noreferrer noopener'>Re:Coded</a> and <a href="https://flatironschool.com/" target="_blank" rel='noreferrer noopener'>Flatiron school</a>. I honed my skills in front-end web development as well as in soft skills during the bootcamp. Now, I'm focusing on practicing, improving and going deeper into the techniques that he learned.
+                        I have shifted my career goals from teaching English to become a developer. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by <a href="https://www.re-coded.com/" target="_blank" rel='noreferrer noopener'>Re:Coded</a> and <a href="https://flatironschool.com/" target="_blank" rel='noreferrer noopener'>Flatiron school</a>. I honed my skills in front-end web development as well as in soft skills during the bootcamp. Now, I'm focusing on practicing, improving and going deeper into the techniques that I have learned.
                       </p>
                     </div>
                   </div>
