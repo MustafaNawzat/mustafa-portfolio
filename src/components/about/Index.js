@@ -35,11 +35,11 @@ export default class About extends React.Component {
               <FadeInLeftDiv>
                 <div className="hey-content" >
                   <h1 className="mb-0">Hey, I'm Mustafa Nawzat</h1>
-                  <p className="mt-0"><strong>Junior Front End Developer</strong></p>
+                  <p className="mt-0"><strong>Junior Web Developer</strong></p>
                 </div>
                 <p className="lead about-me-caption">On a journey of everyday <Typed className="strongy"
                   strings={['Learning', 'Practicing', 'Self-developing ']}
-                  typeSpeed={40} backSpeed={50} loop /><br></br>to be a Front-End Web Developer and yes, my name is Mustafa but everybody calls me Tofy :)</p>
+                  typeSpeed={40} backSpeed={50} loop /><br></br>to be a senior Web Developer and yes, my name is Mustafa but everybody calls me Tofy :).</p>
 
                 <div class="panel panel-default text-center">
                   <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#readmore">
@@ -59,11 +59,11 @@ export default class About extends React.Component {
                   <li className="d-inline-block m-3"><a href="https://github.com/MustafaNawzat/" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-github github"></i></a></li>
                   <li className="d-inline-block m-3"><a href="https://www.linkedin.com/in/mustafa-nawzat-88a689132/" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-linkedin linkedin"></i></a></li>
                   <li className="d-inline-block m-3"><a href="https://twitter.com/MustafaNawzat" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-twitter twitter"></i></a></li>
-                  <li className="d-inline-block m-3"><a href="http://instagram.com/mustafa.n.r" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-instagram instagram"></i></a></li>
+                  {/* <li className="d-inline-block m-3"><a href="http://instagram.com/mustafa.n.r" target="_blank" rel='noreferrer noopener'><i className="fab fa-2x fa-instagram instagram"></i></a></li> */}
                 </ul>
                 <div className="btns-container mt-3">
-                  <a className="btn btn-main py-2 px-5 mr-3 btn-lg" href="mailto:mustafanawzatt@gmail.com?&subject=Big%20News">HIRE ME</a>
-                  <a className="btn btn-outline-primary ml-xl-2 py-2 px-5  btn-lg" href="/Projects">Projects</a>
+                  <a className="btn btn-main py-2 px-5 mr-3 btn-lg" href="mailto:mustafanawzatt@gmail.com?&subject=Lets%20work%20together">HIRE ME</a>
+                  <a className="btn btn-outline-primary ml-xl-2 py-2 px-5  btn-lg" href="/projects">Projects</a>
                 </div>
               </FadeInLeftDiv>
             </Col>
