@@ -15,6 +15,7 @@ class Navigation extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <NavLink exact activeClassName="link-active" className="link p-0 mt-3 mr-3 text-uppercase font-weight-bold" to="/"   >About</NavLink>
+              <NavLink activeClassName="link-active" className="link p-0 mt-3 mr-3 text-uppercase font-weight-bold" to="/articles"   >Articles</NavLink>
               <NavLink activeClassName="link-active" className="link p-0 mt-3 mr-3 text-uppercase font-weight-bold" to="/projects" >Projects</NavLink>
               <NavLink activeClassName="link-active" className="link p-0 mt-3 mr-3 text-uppercase font-weight-bold" to="/contact"  >Contact</NavLink>
               <NavLink activeClassName="link-active" className="link p-0 mt-3 mr-3 text-uppercase font-weight-bold" to="/resume" target="_blank" >resume</NavLink>

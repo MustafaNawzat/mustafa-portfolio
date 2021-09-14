@@ -41,12 +41,12 @@ export default class About extends React.Component {
                   strings={['Learning', 'Practicing', 'Self-developing ']}
                   typeSpeed={40} backSpeed={50} loop /><br></br>to be a senior Web Developer and yes, my name is Mustafa but everybody calls me Tofy :).</p>
 
-                <div class="panel panel-default text-center">
-                  <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#readmore">
-                    <button class="btn btn-primary ing my-4">More About Me</button>
+                <div className="panel panel-default text-center">
+                  <div className="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#readmore">
+                    <button className="btn btn-primary ing my-4">More About Me</button>
                   </div>
-                  <div id="readmore" class="panel-collapse collapse">
-                    <div class="panel-body">
+                  <div id="readmore" className="panel-collapse collapse">
+                    <div className="panel-body">
                       <p className="lead about-me-caption">
                         I have shifted my career goals from teaching English to become a developer. One of the most important turning points of my life was when I got accepted in the Front-End Web Development Bootcamp by <a href="https://www.re-coded.com/" target="_blank" rel='noreferrer noopener'>Re:Coded</a> and <a href="https://flatironschool.com/" target="_blank" rel='noreferrer noopener'>Flatiron school</a>. I honed my skills in front-end web development as well as in soft skills during the bootcamp. Now, I'm focusing on practicing, improving and going deeper into the techniques that I have learned.
                       </p>

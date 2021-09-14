@@ -70,8 +70,8 @@ export default class Projects extends Component {
             </p>
           </div>
           <Row>
-            {projects.map((project) => (
-              <Col lg={6} className="mb-3">
+            {projects.map((project, i) => (
+              <Col key={i} lg={6} className="mb-3">
                 <FadeInUpDiv1s>
                   <div className="hover hover-5 text-white rounded">
                     <img
